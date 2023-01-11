@@ -48,13 +48,13 @@ nav > a:active {
     width: 100%;
 }
 
-.main-tile {
+.wrapper-for-main-tile {
     display: flex;
     flex-direction: column;
     width: 50.5%;
 }
 
-.main-images {
+.wrapper-for-img-yummy {
     width: 49%;
     margin: 100px 0 0 0;
 }
@@ -146,7 +146,8 @@ h2 > span {
 }
 
 
-.container-card-product > img {
+
+.card-product > img {
     width: 100%;
 }
 
@@ -236,10 +237,11 @@ footer>div{
     margin: 0 auto ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 footer>div>img{
     width: 99px;
-    margin: 0 188px 0 0;
+    margin: 0;
 }
 
 footer p{
@@ -247,3 +249,242 @@ footer p{
     font-size: 36px;
 }
 
+@media (max-width: 1024px) {
+    .container{
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
+
+    nav > a {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 90px;
+        margin: 70px 0 0 7px;
+    }
+
+    .description-yummy {
+
+        font-size: 20px;
+    }
+
+    .inner-size-container {
+        padding: 70px 0 70px 0;
+    }
+
+    .third-container {
+        margin: 70px auto 70px auto;
+    }
+
+    .last-description {
+        font-size: 20px;
+        margin-left: 7px;
+    }
+
+    h5{
+        margin-left: 7px;
+    }
+
+    ul{
+        font-size: 20px;
+    }
+
+    li{
+        margin-left: 10px;
+    }
+
+    footer{
+        background: rgba(119, 78, 46, 1);
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    footer>div{
+        height: 150px;
+    }
+    footer>div>img{
+        margin-left: 7px;
+    }
+
+    footer p{
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 862px) {
+    .third-container {
+        height: 1030px;
+        margin: 50px auto 50px auto;
+    }
+
+    footer>div{
+        height: 120px;
+    }
+    footer>div>img{
+        width: 79px;
+    }
+
+    h4 {
+        font-size: 66px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    nav{
+        margin-right: 5px;
+    }
+
+    .first-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        .wrapper-for-img-yummy {
+        width: 70%;
+        margin: 50px 0 0 0;
+    }
+
+    .wrapper-for-main-tile {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .img-yummy {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 110px;
+        font-weight: 800;
+        margin: 50px 0 0 0;
+        text-align: center;
+    }
+
+    .description-yummy {
+        margin: 40px 0 0 0;
+        font-size: 24px;
+        font-weight: normal;
+        text-align: justify;
+    }
+
+    .button-love-sweet {
+        width: 343px;
+        margin: 50px auto 61px auto;
+        padding: 20px 0;
+        background: rgba(119, 78, 46, 1);
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+   .container{
+       margin-bottom: 30px;
+   }
+
+
+    /*.secondary-container {      */
+    /*}*/
+
+    .inner-size-container {
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 72px;
+        margin: 0 auto 70px auto;
+        text-align: center;
+    }
+
+
+    .container-card-product {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card-product {
+        max-width: 650px;
+        width: 100%;
+        background: white;
+        margin-bottom: 50px;
+    }
+
+
+
+    .third-container {
+        min-height: 1400px;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .left-last-card {
+        order: 1;
+        max-width: 650px;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    .right-last-card {
+        max-width: 380px;
+        width: 100%;
+        margin: 50px;
+    }
+
+
+    h4 {
+        font-size: 72px;
+        text-align: center;
+        margin: 0 0 50px;
+    }
+
+
+    .last-description {
+        text-align: justify;
+    }
+
+    h5{
+      text-align: center;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li{
+        margin: 0;
+    }
+
+    footer>div>img{
+        margin: 5px;
+    }
+
+    footer p{
+        text-align: center;
+        margin-right: 5px;
+    }
+
+}
+
+@media (max-width: 680px) {
+
+    .wrapper-for-main-tile {
+        width: 90%
+    }
+
+    .last-description {
+       margin: 0 10px;
+    }
+
+}
